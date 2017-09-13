@@ -6,6 +6,13 @@ language:
 services:
   - docker
 
+group: ""
+
+dist: ""
+
+os: ""
+
+
 script:
   - sudo docker run -it -v "$PWD:/repository" debian:testing sh -c "
       apt-get update &&
