@@ -1,10 +1,8 @@
 sudo: required
 
 language:
-  - cpp
+  -cpp
   
-services:
-  - docker
 
 group: ""
 
