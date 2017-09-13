@@ -1,15 +1,13 @@
 sudo: required
 
 language:
-  -cpp
+  - cpp
   
+compiler:
+  - gcc
 
-group: ""
-
-dist: ""
-
-os: ""
-
+services:
+  - docker
 
 script:
   - sudo docker run -it -v "$PWD:/repository" debian:testing sh -c "
